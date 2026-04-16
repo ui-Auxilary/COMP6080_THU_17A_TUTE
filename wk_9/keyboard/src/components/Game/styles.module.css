@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.gameOver {
+  color: red;
+  font-weight: bold;
+}
