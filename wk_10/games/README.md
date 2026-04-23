@@ -54,3 +54,16 @@ Dashboard
 - If the computer wins, a play again button should appear.
 
 ![Game3](https://github.com/user-attachments/assets/4fdd366a-5f29-4c1d-8a84-25d28f320735)
+
+**Game 4 Tower of Hanoi** 🗼:
+- Display an input field where the player can enter the number of rings (between 1-7).
+- After entering the number of rings, the player should be shown 3 pegs (towers) displayed horizontally.
+- All rings should start on the left peg, stacked in decreasing size from bottom to top.
+- The player has 30 seconds to move all rings from the left peg to the right peg following the Tower of Hanoi rules:
+  - Only one ring can be moved at a time
+  - A larger ring cannot be placed on top of a smaller ring
+- Rings should be clickable to select/deselect, and players can click a peg to place the selected ring there.
+- Display a countdown timer showing the remaining time (in seconds).
+- If the player successfully moves all rings to the right peg within 30 seconds, they win and their total score increases by 1. A "Play again" button should appear.
+- If time runs out before completing the puzzle, the game ends with "You lose" text and a "Play again" button should appear.
+- The "Play again" button should reset the game and allow the player to enter a new number of rings.
